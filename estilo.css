@@ -1,0 +1,165 @@
+/* Fuente general */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6f9;
+  color: #222;
+}
+
+/* HEADER */
+header {
+  background-color: #0044cc;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+}
+
+header .logo h1 {
+  font-size: 28px;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 25px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* SECCIÓN HERO */
+.hero {
+  background-image: url('fondo-celulares.jpg'); /* Puedes cambiar por tu imagen */
+  background-size: cover;
+  background-position: center;
+  color: rgba(12, 8, 8, 0.816);
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero-texto h2 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.hero-texto p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.boton {
+  background-color: #ff6600;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.boton:hover {
+  background-color: #e65c00;
+}
+
+/* SECCIONES GENERALES */
+.seccion {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.seccion h2 {
+  font-size: 32px;
+  color: #0044cc;
+  margin-bottom: 40px;
+}
+
+.servicios-contenedor,
+.productos-contenedor {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.tarjeta {
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  width: 280px;
+  padding: 25px;
+  text-align: center;
+}
+
+.tarjeta h3 {
+  color: #0044cc;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.tarjeta p {
+  color: #444;
+  font-size: 15px;
+}
+
+/* CONTACTO */
+.contacto {
+  background-color: #e9edf7;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.contacto form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contacto input,
+.contacto textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contacto button {
+  background-color: #0044cc;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.contacto button:hover {
+  background-color: #0033a0;
+}
+
+/* FOOTER */
+footer {
+  background-color: #002266;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
